@@ -27,7 +27,7 @@ class AphorismViewModel: ObservableObject{
         aphorisms.append(aph1)
         aphorisms.append(aph2)
         aphorisms.append(aph3)
-        aphorisms.append(aph4)
+        
     }
 }
 
