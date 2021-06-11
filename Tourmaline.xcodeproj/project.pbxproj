@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1179275626734B28006344C2 /* TourmalineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179275526734B28006344C2 /* TourmalineApp.swift */; };
+		1179275826734B28006344C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179275726734B28006344C2 /* ContentView.swift */; };
+		1179275A26734B29006344C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1179275926734B29006344C2 /* Assets.xcassets */; };
+		1179275D26734B29006344C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1179275C26734B29006344C2 /* Preview Assets.xcassets */; };
+		1179276826734B29006344C2 /* TourmalineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179276726734B29006344C2 /* TourmalineTests.swift */; };
+		1179277326734B29006344C2 /* TourmalineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179277226734B29006344C2 /* TourmalineUITests.swift */; };
+		1179278426734DDD006344C2 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179278326734DDD006344C2 /* BrowseView.swift */; };
+		1179278926734DEA006344C2 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179278826734DEA006344C2 /* CollectionView.swift */; };
+		1179278E26734F8B006344C2 /* AddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179278D26734F8B006344C2 /* AddingView.swift */; };
+		1179279326737D5F006344C2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179279226737D5F006344C2 /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1179276426734B29006344C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1179274A26734B28006344C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1179275126734B28006344C2;
+			remoteInfo = Tourmaline;
+		};
+		1179276F26734B29006344C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1179274A26734B28006344C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1179275126734B28006344C2;
+			remoteInfo = Tourmaline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1179275226734B28006344C2 /* Tourmaline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourmaline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1179275526734B28006344C2 /* TourmalineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourmalineApp.swift; sourceTree = "<group>"; };
+		1179275726734B28006344C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1179275926734B29006344C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1179275C26734B29006344C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1179275E26734B29006344C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1179276326734B29006344C2 /* TourmalineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourmalineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1179276726734B29006344C2 /* TourmalineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourmalineTests.swift; sourceTree = "<group>"; };
+		1179276926734B29006344C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1179276E26734B29006344C2 /* TourmalineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourmalineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1179277226734B29006344C2 /* TourmalineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourmalineUITests.swift; sourceTree = "<group>"; };
+		1179277426734B29006344C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1179278326734DDD006344C2 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		1179278826734DEA006344C2 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		1179278D26734F8B006344C2 /* AddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingView.swift; sourceTree = "<group>"; };
+		1179279226737D5F006344C2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1179274F26734B28006344C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1179276026734B29006344C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1179276B26734B29006344C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1179274926734B28006344C2 = {
+			isa = PBXGroup;
+			children = (
+				1179275426734B28006344C2 /* Tourmaline */,
+				1179276626734B29006344C2 /* TourmalineTests */,
+				1179277126734B29006344C2 /* TourmalineUITests */,
+				1179275326734B28006344C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1179275326734B28006344C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1179275226734B28006344C2 /* Tourmaline.app */,
+				1179276326734B29006344C2 /* TourmalineTests.xctest */,
+				1179276E26734B29006344C2 /* TourmalineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1179275426734B28006344C2 /* Tourmaline */ = {
+			isa = PBXGroup;
+			children = (
+				1179275526734B28006344C2 /* TourmalineApp.swift */,
+				1179275726734B28006344C2 /* ContentView.swift */,
+				1179278D26734F8B006344C2 /* AddingView.swift */,
+				1179279226737D5F006344C2 /* Colors.swift */,
+				1179278326734DDD006344C2 /* BrowseView.swift */,
+				1179278826734DEA006344C2 /* CollectionView.swift */,
+				1179275926734B29006344C2 /* Assets.xcassets */,
+				1179275E26734B29006344C2 /* Info.plist */,
+				1179275B26734B29006344C2 /* Preview Content */,
+			);
+			path = Tourmaline;
+			sourceTree = "<group>";
+		};
+		1179275B26734B29006344C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1179275C26734B29006344C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1179276626734B29006344C2 /* TourmalineTests */ = {
+			isa = PBXGroup;
+			children = (
+				1179276726734B29006344C2 /* TourmalineTests.swift */,
+				1179276926734B29006344C2 /* Info.plist */,
+			);
+			path = TourmalineTests;
+			sourceTree = "<group>";
+		};
+		1179277126734B29006344C2 /* TourmalineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1179277226734B29006344C2 /* TourmalineUITests.swift */,
+				1179277426734B29006344C2 /* Info.plist */,
+			);
+			path = TourmalineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1179275126734B28006344C2 /* Tourmaline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1179277726734B2A006344C2 /* Build configuration list for PBXNativeTarget "Tourmaline" */;
+			buildPhases = (
+				1179274E26734B28006344C2 /* Sources */,
+				1179274F26734B28006344C2 /* Frameworks */,
+				1179275026734B28006344C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tourmaline;
+			productName = Tourmaline;
+			productReference = 1179275226734B28006344C2 /* Tourmaline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1179276226734B29006344C2 /* TourmalineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1179277A26734B2A006344C2 /* Build configuration list for PBXNativeTarget "TourmalineTests" */;
+			buildPhases = (
+				1179275F26734B29006344C2 /* Sources */,
+				1179276026734B29006344C2 /* Frameworks */,
+				1179276126734B29006344C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1179276526734B29006344C2 /* PBXTargetDependency */,
+			);
+			name = TourmalineTests;
+			productName = TourmalineTests;
+			productReference = 1179276326734B29006344C2 /* TourmalineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1179276D26734B29006344C2 /* TourmalineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1179277D26734B2A006344C2 /* Build configuration list for PBXNativeTarget "TourmalineUITests" */;
+			buildPhases = (
+				1179276A26734B29006344C2 /* Sources */,
+				1179276B26734B29006344C2 /* Frameworks */,
+				1179276C26734B29006344C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1179277026734B29006344C2 /* PBXTargetDependency */,
+			);
+			name = TourmalineUITests;
+			productName = TourmalineUITests;
+			productReference = 1179276E26734B29006344C2 /* TourmalineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1179274A26734B28006344C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1179275126734B28006344C2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1179276226734B29006344C2 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1179275126734B28006344C2;
+					};
+					1179276D26734B29006344C2 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1179275126734B28006344C2;
+					};
+				};
+			};
+			buildConfigurationList = 1179274D26734B28006344C2 /* Build configuration list for PBXProject "Tourmaline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1179274926734B28006344C2;
+			productRefGroup = 1179275326734B28006344C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1179275126734B28006344C2 /* Tourmaline */,
+				1179276226734B29006344C2 /* TourmalineTests */,
+				1179276D26734B29006344C2 /* TourmalineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1179275026734B28006344C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1179275D26734B29006344C2 /* Preview Assets.xcassets in Resources */,
+				1179275A26734B29006344C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1179276126734B29006344C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1179276C26734B29006344C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1179274E26734B28006344C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1179275826734B28006344C2 /* ContentView.swift in Sources */,
+				1179279326737D5F006344C2 /* Colors.swift in Sources */,
+				1179278426734DDD006344C2 /* BrowseView.swift in Sources */,
+				1179278926734DEA006344C2 /* CollectionView.swift in Sources */,
+				1179278E26734F8B006344C2 /* AddingView.swift in Sources */,
+				1179275626734B28006344C2 /* TourmalineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1179275F26734B29006344C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1179276826734B29006344C2 /* TourmalineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1179276A26734B29006344C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1179277326734B29006344C2 /* TourmalineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1179276526734B29006344C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1179275126734B28006344C2 /* Tourmaline */;
+			targetProxy = 1179276426734B29006344C2 /* PBXContainerItemProxy */;
+		};
+		1179277026734B29006344C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1179275126734B28006344C2 /* Tourmaline */;
+			targetProxy = 1179276F26734B29006344C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1179277526734B2A006344C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1179277626734B2A006344C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1179277826734B2A006344C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tourmaline/Preview Content\"";
+				DEVELOPMENT_TEAM = MAF34NW233;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tourmaline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.Tourmaline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1179277926734B2A006344C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tourmaline/Preview Content\"";
+				DEVELOPMENT_TEAM = MAF34NW233;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tourmaline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.Tourmaline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1179277B26734B2A006344C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = TourmalineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.TourmalineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tourmaline.app/Tourmaline";
+			};
+			name = Debug;
+		};
+		1179277C26734B2A006344C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = TourmalineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.TourmalineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tourmaline.app/Tourmaline";
+			};
+			name = Release;
+		};
+		1179277E26734B2A006344C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = TourmalineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.TourmalineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tourmaline;
+			};
+			name = Debug;
+		};
+		1179277F26734B2A006344C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAF34NW233;
+				INFOPLIST_FILE = TourmalineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SHUE-.TourmalineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tourmaline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1179274D26734B28006344C2 /* Build configuration list for PBXProject "Tourmaline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1179277526734B2A006344C2 /* Debug */,
+				1179277626734B2A006344C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1179277726734B2A006344C2 /* Build configuration list for PBXNativeTarget "Tourmaline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1179277826734B2A006344C2 /* Debug */,
+				1179277926734B2A006344C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1179277A26734B2A006344C2 /* Build configuration list for PBXNativeTarget "TourmalineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1179277B26734B2A006344C2 /* Debug */,
+				1179277C26734B2A006344C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1179277D26734B2A006344C2 /* Build configuration list for PBXNativeTarget "TourmalineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1179277E26734B2A006344C2 /* Debug */,
+				1179277F26734B2A006344C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1179274A26734B28006344C2 /* Project object */;
+}
