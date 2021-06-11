@@ -49,11 +49,9 @@ struct AddingView: View {
                     Divider()
                 }.padding()
                 Button(action: {
-                    var sender = AphorismModel(id: 5, text: self.aphorism, author: self.author)
+                    AphorismViewModel.aphorisms.append(AphorismModel(id: 5, text: self.aphorism, author: self.author))
                     
-                    
-                    
-                }, label: {
+                    }, label: {
                     ZStack{
                         Capsule()
                             .frame(width: 200, height: 55, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)

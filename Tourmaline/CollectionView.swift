@@ -11,7 +11,7 @@ struct AphorismModel: Identifiable {
     var text: String
     var author: String
 }
-class AphorismViewModel: ObservableObject{
+public class AphorismViewModel: ObservableObject{
     @Published var aphorisms: [AphorismModel] = []
     init() {
         getAphs()
@@ -27,6 +27,7 @@ class AphorismViewModel: ObservableObject{
         aphorisms.append(aph1)
         aphorisms.append(aph2)
         aphorisms.append(aph3)
+        aphorisms.append(aph4)
         
     }
 }
